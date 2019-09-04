@@ -1,13 +1,13 @@
 node
 {
     def ApplicationName 	=	"PetClinicProject-FortifyScan"
-    def ApplicationVersion	=   "1.1"
+    def ApplicationVersion	=    "1.1"
     def bID		        	=	"PetClinicProject-Fortify Scan"
     def GitRepoURL	       	=	"https://github.com/selvan123/petclinic.git"
     def FailureCriteria		=	"category: Path Manipulation"
     def ResultsFile	    	=	"PetClinic.fpr"
 
-    stage('Git')
+    stage('Source Code Download')
     {
         git GitRepoURL
     }
