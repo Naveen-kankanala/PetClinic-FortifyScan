@@ -4,7 +4,7 @@ node
     def ApplicationVersion	=    "1.1"
     def bID		        	=	"PetClinicProject-Fortify Scan"
     def GitRepoURL	       	=	"https://github.com/selvan123/petclinic.git"
-    def FailureCriteria		=	"category: Path Manipulation"
+    def FailureCriteria		=	"[fortify priority order]:high OR [fortify priority order]:critical"
     def ResultsFile	    	=	"PetClinic.fpr"
 
     stage('Source Code Download')
