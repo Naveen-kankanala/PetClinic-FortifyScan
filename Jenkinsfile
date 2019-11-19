@@ -3,7 +3,7 @@ node (label: 'FortifySCA')
     def ApplicationName 	=	"PetClinicProject-FortifyScan"
     def ApplicationVersion	=    "1.1"
     def bID		        	=	"PetClinicProject-Fortify Scan"
-    def GitRepoURL	       	=	"https://github.com/selvan123/petclinic.git"
+    def GitRepoURL	       	=	"https://github.com/Naveen-kankanala/petclinic"
     def FailureCriteria		=	"[fortify priority order]:high OR [fortify priority order]:critical"
     def ResultsFile	    	=	"PetClinic.fpr"
 
